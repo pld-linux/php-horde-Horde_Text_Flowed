@@ -45,6 +45,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog install.log
 %{php_pear_dir}/.registry/.channel.*/*.reg
-# TODO: dir owner?
-%dir %{php_pear_dir}/Horde/Text
 %{php_pear_dir}/Horde/Text/Flowed.php
