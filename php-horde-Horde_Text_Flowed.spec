@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde API for flowed text as per RFC 3676
 Name:		php-horde-Horde_Text_Flowed
-Version:	1.0.0
+Version:	1.0.1
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	49e6bb391a0f919a9d6d43f320b6db13
+# Source0-md5:	c22a4c2b458d2477892148bfa90bd20b
 URL:		https://github.com/horde/horde/tree/master/framework/Text_Flowed/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
