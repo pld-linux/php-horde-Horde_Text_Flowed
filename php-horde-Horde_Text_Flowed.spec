@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_Text_Flowed
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde API for flowed text as per RFC 3676
 Name:		php-horde-Horde_Text_Flowed
 Version:	1.0.1
